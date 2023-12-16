@@ -1,0 +1,195 @@
+  *{
+    margin: 10;
+    padding: 10;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@900&family=Inter:wght@200&family=Merriweather:ital,wght@1,300&family=Noto+Serif:ital@1&family=Oswald&family=PT+Serif&family=Poppins:wght@300;400;500;600&family=Raleway:ital,wght@1,300;1,400&display=swap');
+
+
+html,body{
+    background-color: antiquewhite;
+    font-family: 'Merriweather', serif;
+}
+
+
+.conteiner{
+    width: 70%;
+    height: 130vh;
+    background-color: white;
+    margin-left: 200px;
+    box-shadow: 2px 2px 3px 3px gray;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 13vh;
+}
+
+
+.logo img{
+    width: 13vw;
+    height: 13vh;
+}
+
+/* ==================================================================================================== */
+.heading{
+    background-color: rgb(19, 19, 70);
+    width: 68.3vw;
+    height: 8vh;
+}
+
+
+ul li{
+    float: left;
+    color: white;
+    list-style: none;
+    padding: 13px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* ====================================================================================================== */
+
+
+
+.top{
+    width: 68.1vw;
+    height: 9vh;
+    border: 1px solid black;
+    margin-top: 3px;
+    
+}
+
+p{
+     text-align: center;
+     margin-top: 0px;
+     font-size: 18px;
+     text-shadow: 1px 1px 1px black;
+   
+}
+
+ .bb{
+    margin-left: 330px;
+    font-size: 15px;
+   
+}
+
+/* ========================================================================================================= */
+
+
+.top-img{
+    width: 68.3vw;
+    height: 30vh;
+    
+     margin-top: 10px;
+     display: flex;
+     gap: 50px;
+   
+}
+
+.card{
+    border: 1px solid black;
+    width: 40vw;
+    height: 30vh;
+    background-color: rgb(250, 246, 246);
+}
+
+
+.card i{
+   margin-left: 200px;
+   padding-top: 20px;
+}
+
+.card h2{
+    margin-left: 90px;
+ 
+}
+
+
+.card button{
+    margin-left: 160px;
+    width: 7vw;
+    height: 4vh;
+    background-color: #1c1c50;
+    color: white;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+}
+
+
+.card  img{
+    margin-left: 150px;
+    padding-top: 20px;
+    height: 5vh;
+}
+
+
+
+ input{
+    margin-left: 110px;
+    margin-top: 10px;
+    width: 15vw;
+    height: 3vh;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.fa-magnifying-glass{
+    position: relative;
+    bottom: 43px;
+    left: 100px;
+   
+}
+
+
+.card button:hover{
+     transform: scale(1.1,1.1);
+    transition:translate;
+}
+
+/* ========================================================================================================== */
+
+
+.Links{
+    width: 68.1vw;
+    height: 7vh;
+    background-color: aquamarine;
+}
+
+
+
+.Links h6{
+    font-size: 13px;
+    margin-left: 20px;
+  
+}
+
+
+
+
+.Links img{
+    width: 10vw;
+    margin: 20px;
+  
+}
+
+/* ========================================================================================================== */
+
+
+.section{
+    width: 68.3vw;
+    height: 33vh;
+    
+    margin-top: 130px;
+}
+
+
+
+.section img{
+    width: 68.3vw;
+    height: 30vh;
+    margin-top: 20px;
+}
+
